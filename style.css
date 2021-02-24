@@ -1,0 +1,87 @@
+body{
+    background-image: url("../Desenvolvimento/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color:#00adb5;
+    width: 60%;
+    padding: 2%;
+    margin: 0 auto;
+    border-radius: 12px 12px 0 0;
+    margin-top: 5%;
+}
+
+main{ 
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 1% 2%;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.img-perfil{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid black ;
+}
+
+header table h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+}
+
+nav {
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 1% 2%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 5%;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+.azul-claro{
+    color:#00adb5;
+}
+
+.link{
+    text-decoration: none;
+    color: #00adb5;
+}
+
+footer{
+    font-weight: bold;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #00adb5;
+    padding: 1% 2%;
+    border-radius: 0 0 16px 16px;
+    margin-bottom: 5%;
+}
